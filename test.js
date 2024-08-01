@@ -36,3 +36,11 @@
 // console.log(undefined == 0) //false
 // console.log(undefined < 0) //false
 // console.log(undefined >= 0) //false
+
+//Primitive data type (CallbyValue)
+// 7 types : String , Number , Boolean , Null , undefiend,  symbol ,  BigInt
+
+
+// Non-primitive (referencebyValue)
+
+// Array, Objects , Functions
