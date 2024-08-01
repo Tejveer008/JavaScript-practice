@@ -39,8 +39,9 @@ let strToNumber =Number(score)
 // console.log(undefined < 0) //false
 // console.log(undefined >= 0) //false
 
-// const id = Symbol('123') , Symbol gives us a unique value
-// const anotherId = Symbol('123')
+const id = Symbol('123')  //Symbol gives us a unique value
+const anotherId = Symbol('123')
+// console.log(typeof id);
 // console.log(id === anotherId)//false
 
 // const bigNumber = 328848384n
@@ -71,4 +72,4 @@ const myFunction = function(){
 // boolean : "boolean"
 // number : "number"
 // string : "string"
-// function : "function"
+// function : "function" || "object function "
