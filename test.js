@@ -2,6 +2,9 @@
 // variables
 "use strict"; // treat all JS code as newer version
 
+//Primitive data type (CallbyValue)
+// 7 types : String , Number , Boolean , Null , undefiend,  symbol ,  BigInt
+
 // const accountId =11221
 // let accountEmail = "Tejveer001@gmail.com"
 // var accountpass = "12345"
@@ -37,12 +40,36 @@
 // console.log(undefined < 0) //false
 // console.log(undefined >= 0) //false
 
-//Primitive data type (CallbyValue)
-// 7 types : String , Number , Boolean , Null , undefiend,  symbol ,  BigInt
-
 // const id = Symbol('123') , Symbol gives us a unique value
 // const anotherId = Symbol('123')
 // console.log(id === anotherId)//false
 
+// const bigNumber = 328848384n
+// console.log(typeof bigNumber)
+
 // Non-primitive (referencebyValue)
 // Array, Objects , Functions
+
+const heros = ["ironman", "spiderman" , "thor" , "hukl"];
+console.log(heros);
+
+let myObj = {
+    name: "tejveer",
+    age: 22
+};
+console.log(myObj);
+
+const myFunction = function(){
+    console.log("Hello world");
+}
+
+console.log(typeof myFunction);
+
+// typeof operators
+
+// undefiend : "undefined"
+// null : "object"
+// boolean : "boolean"
+// number : "number"
+// string : "string"
+// function : "function"
