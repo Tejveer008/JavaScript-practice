@@ -40,7 +40,9 @@
 //Primitive data type (CallbyValue)
 // 7 types : String , Number , Boolean , Null , undefiend,  symbol ,  BigInt
 
+// const id = Symbol('123') , Symbol gives us a unique value
+// const anotherId = Symbol('123')
+// console.log(id === anotherId)//false
 
 // Non-primitive (referencebyValue)
-
 // Array, Objects , Functions
