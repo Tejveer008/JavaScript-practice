@@ -24,3 +24,11 @@
 // console.log('1' + (2 + 2));
 // console.log(1 + 2 + '2' + 2);
 // console.log(1 + 2 + '2');
+
+console.log(null > 0);//false
+console.log(null == 0);//false
+console.log(null >= 0);//true
+
+//the reason is that an equality check == and comparison <> >= <= work differently.
+//comparison convert null to a number, trating it as 0.
+//that's why null >=0 is true and null > 0 is false.
