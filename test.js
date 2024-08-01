@@ -1,14 +1,13 @@
-
-// variables
 "use strict"; // treat all JS code as newer version
+// variables
 
 //Primitive data type (CallbyValue)
 // 7 types : String , Number , Boolean , Null , undefiend,  symbol ,  BigInt
 
-// const accountId =11221
-// let accountEmail = "Tejveer001@gmail.com"
-// var accountpass = "12345"
-// let accountCity = "meerut"
+const accountId =11221
+let accountEmail = "Tejveer001@gmail.com"
+var accountpass = "12345"
+let accountCity = "meerut"
 
 // console.log(typeof accountId);//number
 // console.log(typeof undefined)//undefined
@@ -16,10 +15,10 @@
 
 //Conversion Operation
 
-// let score  = 33
+let score  = 33
 // console.log(typeof score)
 
-// let strToNumber =Number(score)
+let strToNumber =Number(score)
 // console.log(typeof strToNumber)
 // console.log(strToNumber)
 
@@ -51,19 +50,19 @@
 // Array, Objects , Functions
 
 const heros = ["ironman", "spiderman" , "thor" , "hukl"];
-console.log(heros);
+// console.log(heros);
 
 let myObj = {
     name: "tejveer",
     age: 22
 };
-console.log(myObj);
+// console.log(myObj);
 
 const myFunction = function(){
-    console.log("Hello world");
+    // console.log("Hello world");
 }
 
-console.log(typeof myFunction);
+// console.log(typeof myFunction);
 
 // typeof operators
 
