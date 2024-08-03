@@ -97,7 +97,7 @@ const myFunction = function(){
 let myName = "tejveerSingh";
 
 let anotherName = myName
-anotherName = "ghost"// it will provide the copy from the refrence
+anotherName = "ghost"// it will provide the copy from the original
 
 // console .log(myName);
 // console.log(anotherName);
@@ -114,3 +114,13 @@ userTwo.email = "tejveer@google.com"; // it will take the reference form the ori
 // console.log(userOne.email);
 // console.log(userTwo);
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// string methods
+
+String.length
+String.toUpperCase()
+String.toLowerCase()
+String.charAt()
+String.indexof()
