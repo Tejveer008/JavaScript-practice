@@ -1,8 +1,6 @@
 "use strict"; // treat all JS code as newer version
-// variables
 
-//Primitive data type (CallbyValue)
-// 7 types : String , Number , Boolean , Null , undefiend,  symbol ,  BigInt
+// variables
 
 const accountId =11221
 let accountEmail = "Tejveer001@gmail.com"
@@ -12,6 +10,17 @@ let accountCity = "meerut"
 // console.log(typeof accountId);//number
 // console.log(typeof undefined)//undefined
 // console.log(typeof null) //object
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Primitive data type (CallbyValue)
+// 7 types : String , Number , Boolean , Null , undefiend,  symbol ,  BigInt
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 //Conversion Operation
 
@@ -47,6 +56,9 @@ const anotherId = Symbol('123')
 // const bigNumber = 328848384n
 // console.log(typeof bigNumber)
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 // Non-primitive (referencebyValue)
 // Array, Objects , Functions
 
@@ -64,6 +76,9 @@ const myFunction = function(){
 }
 
 // console.log(typeof myFunction);
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // typeof operators
 
