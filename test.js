@@ -88,3 +88,29 @@ const myFunction = function(){
 // number : "number"
 // string : "string"
 // function : "function" || "object function "
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (primitive) , Heap(Non premitive)
+
+let myName = "tejveerSingh";
+
+let anotherName = myName
+anotherName = "ghost"// it will provide the copy from the refrence
+
+// console .log(myName);
+// console.log(anotherName);
+
+let userOne = {
+    email : "user@google.com" , 
+    name : "tejveer"
+}
+
+let userTwo = userOne ;
+
+userTwo.email = "tejveer@google.com"; // it will take the reference form the original value
+
+// console.log(userOne.email);
+// console.log(userTwo);
+
